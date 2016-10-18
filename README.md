@@ -3,7 +3,7 @@
 This repository contains the LibRank ranking models and corresponding utilities.
 The main purpose of the models is to combine query dependent features (text score) and query independent features. The models differ mainly in how they aggregate the scores.
 
-There are two models implemented in this repository (`LibRank::Model::*`):
+There are two models implemented in this repository (`LibRank::Ranker::Model::*`):
 
 * pOWAv1 - a model that limits the effect of query independent features with respect to the text score
 * EconBiz - the ranking model used in EconBiz
